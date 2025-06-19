@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.anker {
+    margin-right: 200px;
+}
+
+.first-nav{
+    height: 55px;
+    width: 85%;
+    background-color: rgb(61, 139, 242);
+    margin: 30px 35px 0px 80px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 7px;
+    
+}
+.CodingLab{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    left: 90px;
+    text-decoration: none;
+    
+}
+.anker a{
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+}
+.anker input{
+    height: 40px;
+    width: 550px;
+    padding-left: 20px;
+    margin-left: 200px;
+}
+
+.text{
+     position: absolute;
+     top: 300px;
+     left: 550px;
+     font-size: 60px;
+     color: rgb(61, 139, 242);
+}
+label{
+    position: absolute;
+    top: 450px;
+    left: 550px;
+    font-size: 60px;
+    color: white;
+    background-color: rgb(61, 139, 242);
+    border-radius: 10px;   
+}
+body{
+    background-color: rgb(221, 236, 242);
+}
+
+.box a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.box{
+    background-color: black;
+    width: 250px;
+    height: 300px;
+    margin-top: 70px;
+    margin-left: 90px;
+   
+}
+
+a:hover{
+    border: 2px solid black;
+}
+input:hover{
+    border: 2px solid black;
+}
+
+@media (max-width: 910px){
+    input{
+          
+    }
+}
